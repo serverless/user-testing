@@ -1,0 +1,15 @@
+name: 'aws-single-region-app'
+function:
+  helloWorld:
+    source: ./src
+    handler: handler.js:helloWorld
+    runtime: node@6.10
+deployments:
+  - provider:
+      type: aws
+      credentials:
+        accessKeyID: ...
+        secretAccessKey: ...
+    config:
+      regions:
+        - us-east-1
