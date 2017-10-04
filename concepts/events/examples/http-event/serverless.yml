@@ -1,0 +1,13 @@
+name: 'hello-http-event'
+function:
+  helloHttp:
+    source: ./src
+    handler: handler.js:helloHttp
+    runtime: node@6.10
+    events:
+      - type: http
+        config:
+          path: /hello
+          method: GET
+deployments:
+  - ...
