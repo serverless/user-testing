@@ -1,0 +1,7 @@
+name: 'simple-app'
+function:
+  helloWorld:
+    source: ./src
+    handler: handler.js:helloWorld  # Both the handler file and property are supplied here
+    runtime: node@6.10
+deployments: ...

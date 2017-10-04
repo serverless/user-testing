@@ -1,4 +1,5 @@
 name: 'hello-http-event'
+description: An example of an http event
 function:
   helloHttp:
     source: ./src

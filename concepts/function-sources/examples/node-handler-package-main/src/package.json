@@ -1,0 +1,5 @@
+{
+  "name": "helloWorld- function",
+  "private": true,
+  "main": "./handler.js"
+}

@@ -4,7 +4,4 @@ function:
     source: ./src
     handler: handler.js:helloWorld
     runtime: node@6.10
-deployments:
-  - provider:
-    type: aws
-    credentials:
+deployments: ...

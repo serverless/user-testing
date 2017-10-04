@@ -1,0 +1,6 @@
+name: 'simple-app'
+function:
+  helloWorld:
+    source: ./src
+    runtime: node@6.10
+deployments: ...

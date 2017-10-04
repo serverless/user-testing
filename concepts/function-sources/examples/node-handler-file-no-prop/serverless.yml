@@ -1,0 +1,9 @@
+name: 'simple-app'
+function:
+  helloWorld:
+    source: ./src
+    # A handler file is supplied here but not a prop.
+    # In this case we use the whole export as the fucntion
+    handler: handler.js
+    runtime: node@6.10
+deployments: ...
