@@ -1,0 +1,11 @@
+name: 'nested-components-app'
+functions:
+  foo:
+    source: ./functions/foo
+    runtime: node@6.10
+components:
+  nestedBar:
+    functions:
+      bar:
+        source: ./functions/bar
+        runtime: node@6.10

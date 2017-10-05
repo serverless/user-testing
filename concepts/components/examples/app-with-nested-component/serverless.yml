@@ -1,6 +1,0 @@
-name: 'simple-app'
-bugs: https://bugs.com/tracker
-components:
-  someComponent:
-    name: my-component
-    functions: ...
