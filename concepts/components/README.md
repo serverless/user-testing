@@ -106,8 +106,8 @@ developers. They are independently pushable to the Serverless Platform.
     ```
 4. Deploy `hello-goodbye`
 5. Visit the Platform dashboard and see that `hello-goodbye` is deployed
-6. Invoke `greet` which prints `Hello.` to the log
-7. Invoke `dismiss` which prints `Goodbye.` to the log
+6. Invoke `hello-goodbye/greeter/greet` which prints `Hello.` to the log
+7. Invoke `hello-goodbye/dismisser/dismiss` which prints `Goodbye.` to the log
 
 
 ## Use-cases
