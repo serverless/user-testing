@@ -3,7 +3,7 @@
 In the Serverless Platform we use the term **component** to refer to a new concept. This concept is
 - additive; multiple components can be put together to create a Serverless Application
 - hierarchical; components can be made of other components, and an application is itself a component
-- configurable; components can expect parameter values and declare dependencies that have to be provided by the component using them
+- configurable; components can expect parameter values that have to be provided by the component using them
 - namespaced; while wiring by-convention out of the box on par with the current framework, everything that a component provides can be scoped explicitly by name
 
 
