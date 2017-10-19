@@ -7,7 +7,7 @@ In the Serverless Platform we use the term **component** to refer to a new conce
 - namespaced; while wiring by-convention out of the box on par with the current framework, everything that a component provides can be scoped explicitly by name
 
 
-### Exmaple: A single-component application
+### Example: A single-component application
 
 1. Specify a `serverless.yml` with a function
     ```yml
@@ -89,7 +89,7 @@ developers. They are independently pushable to the Serverless Platform.
         handler: handler.js:sayGoodbye
     ```
     ```js
-    function sayHello() {
+    function sayGoodbye() {
       console.log("Goodbye.")
     }
     ```
